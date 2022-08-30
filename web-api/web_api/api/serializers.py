@@ -11,13 +11,12 @@ class UserSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'email',
-            'nome_completo',
             'username',
             'password',
             'first_name',
             'last_name',
             'is_active',
-            'created_at'
+            'created_at',
             'last_login',
             'whatsapp'
         ]
@@ -34,3 +33,5 @@ class UserSerializer(serializers.ModelSerializer):
         instance.email = validated_data['email']
         instance.set_password(validated_data['password'])
         instance.whatsapp = validated_data['whatsapp']
+        instance.save()
+        return instance

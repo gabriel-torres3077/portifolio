@@ -1,0 +1,20 @@
+//This file contains default style settings 
+//button sizes
+$btnSmall: 120px;
+$btnRegular: 260px;
+
+//breakpoint notation
+$mobileScreen: 360px;
+$tabletScreen: 480px;
+$smallScreen: 768px;
+$desktopScreen: 1024px;
+$defaultScreen: 1366px;
+$maxScreen: 2560px;
+
+:root {
+    --title-primary: white;
+    --text-primary: white;
+
+    --orange-highlight: #ff8000;
+
+}
