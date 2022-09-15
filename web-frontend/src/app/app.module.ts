@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/organisms/header/header.component';
 import { FooterComponent } from './components/organisms/footer/footer.component';
+import { WarningLabelComponent } from './components/molecules/warning-label/warning-label.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WarningLabelComponent
   ],
   imports: [
     BrowserModule,

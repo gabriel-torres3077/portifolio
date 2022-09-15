@@ -1,0 +1,29 @@
+.navbar{
+    background-color: var(--primary-bg);
+    width: 100%;
+    color: var(--title-primary);
+    padding: 60px 0;
+    .logo{
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .navblock{
+        margin-right: 20px;
+        float: right;
+        display: inline;    
+
+    };
+    .navblock > a{
+        color: var(--title-primary);
+        display: inline-block;
+        padding: 5px;
+        text-decoration: none;
+        margin-left: 10px;
+        transition: ease-in-out 100ms;
+        &:hover{
+            background-color: black;
+        }
+    }
+
+};

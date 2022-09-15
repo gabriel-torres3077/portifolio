@@ -1,20 +1,27 @@
-//This file contains default style settings 
-//button sizes
-$btnSmall: 120px;
-$btnRegular: 260px;
-
-//breakpoint notation
-$mobileScreen: 360px;
-$tabletScreen: 480px;
-$smallScreen: 768px;
-$desktopScreen: 1024px;
-$defaultScreen: 1366px;
-$maxScreen: 2560px;
 
 :root {
-    --title-primary: white;
-    --text-primary: white;
+    //default theme
+    //website main theme will be BB86FC | #6200EE | 3700B3 and secondary will be #03DAC5 | #018786 | #CF6679
+    --primary: #BB86FC;
+    --secondary-dark: #6200EE;
+    --primary-darker: #3700B3;
+
+    --secondary: #03DAC5;
+    --secondary-dark: #018786;
+    
+    --alternative: #CF6679;
+
+    --primary-bg: rgba(12,12,12,0.8);
+    --secondary-bg: rgba(12,12,12,0.5);
+
+    --title-primary: #fff;
+    --warning-highlight: #850000;
+    --text-primary: #fff;
+    --text-secondary: #000;
+
+    --testeVerde: #000090;
+    --test-highlight: #008000;
+    --black-primary: #000;
 
     --orange-highlight: #ff8000;
-
-}
+};
