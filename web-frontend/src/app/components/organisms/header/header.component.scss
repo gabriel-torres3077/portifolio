@@ -1,29 +1,42 @@
-.navbar{
-    background-color: var(--primary-bg);
+.navbox{
+  padding: 25px;
+  .navbar{
+    //background-color: var(--primary-bg);
     width: 100%;
-    color: var(--title-primary);
-    padding: 60px 0;
-    .logo{
-        display: inline-block;
-        margin-left: 20px;
+    color: var(--secondary);
+    display: inline-block;
+    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+
+    .logo-box{
+      display: inline-block;
+      width: 20%;
+      .logo-icon{
+        background-color: green;
+      }
+
     }
-
     .navblock{
-        margin-right: 20px;
-        float: right;
-        display: inline;    
+      display: inline-block;
+      width: 60%;
 
-    };
-    .navblock > a{
-        color: var(--title-primary);
-        display: inline-block;
-        padding: 5px;
-        text-decoration: none;
-        margin-left: 10px;
-        transition: ease-in-out 100ms;
-        &:hover{
-            background-color: black;
+
+      .items{
+        text-align: center;
+        a{
+          padding: 0 10px;
         }
+        a:hover{
+          background-color: black;
+        }
+      }
+    }
+    .curriculum{
+      display: inline-block;
+      width: 20%;
+      text-align: right;
+
     }
 
 };
+
+}

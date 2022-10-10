@@ -1,14 +1,25 @@
-<nav class="navbar">
-    <div class="logo">
-        Test Logo
+<div class="navbox">
+  <div class="navbar">
+    <div class="logo-box">
+        <fa-icon [icon]="faCog"></fa-icon>
+        Gabriel Torres
     </div>
     <div class="navblock">
+      <div class="items">
         <a href="#">Sobre</a>
         <a href="#">Contact</a>
-        <a href="#">Projects</a>
-    </div>
+        <a routerLinkActive="active" routerLink="projects">Projects</a>
+      </div>
 
-</nav>
-<app-warning-label warning_message="This website are under construction, if you see any issue please report on contact page"></app-warning-label>
+    </div>
+    <div class="curriculum">
+        <a href="#">
+          <fa-icon [icon]="faFilePdf"></fa-icon>
+        </a>
+    </div>
+  </div>
+</div>
+
+<!--<app-warning-label warning_message="This website are under construction, if you see any issue please report on contact page"></app-warning-label>-->
 
 
