@@ -1,6 +1,9 @@
 <div class="method-select">
-    <a routerLink="cellphone" routerActive="active"><button>Phone</button></a>
-    <a routerLink="email" routerActive="active"><button>Email</button></a>
+    <div class="buttons-box">
+        <a routerLink="cellphone" routerActive="active"><button>Phone</button></a>
+        <a routerLink="email" routerActive="active"><button>Email</button></a>
+    </div>
+    <hr>
+    <router-outlet></router-outlet>
 </div>
 
-<router-outlet></router-outlet>
