@@ -1,21 +1,20 @@
 <div class="navbox">
   <div class="navbar">
     <div class="logo-box">
-        <fa-icon [icon]="faCog"></fa-icon>
         Gabriel Torres
     </div>
     <div class="navblock">
       <div class="items">
-        <a href="#">Sobre</a>
-        <a href="#">Contact</a>
-        <a routerLinkActive="active" routerLink="projects">Projects</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+
+        <a routerLink="projects" routerLinkActive="active" >Projects</a>
+        <a routerLink="contact" routerLinkActive="active">Contact</a>
       </div>
 
     </div>
-    <div class="curriculum">
-        <a href="#">
-          <fa-icon [icon]="faFilePdf"></fa-icon>
-        </a>
+    <div class="focus-box">
+        <button class="btn">Hire Me</button>
     </div>
   </div>
 </div>

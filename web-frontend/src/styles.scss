@@ -1,19 +1,28 @@
 @import 'app/components/atoms/statements.scss';
 
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "SilkScreen";
+  src: local("SilkScreen"), url(./assets/fonts/silkscreen/Silkscreen-Regular.ttf) format("truetype");
+}
 *{
-    font-size: 1.5rem;
+    font-size: 18px;
     line-height: 1.8rem;
     font-family: Roboto, Georgia, Times, 'Times New Roman', serif;
 
     color: var(--text-primary);
 };
 html{
-    background-color: var(--primary-bg);
+    background-color: var(--primary-dark);
 };
 body{
     line-height: 5px;
 };
+button{
+  background-color: var(--secondary);
+  border-radius: 3px;
+  border: none;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;

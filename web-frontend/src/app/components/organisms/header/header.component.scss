@@ -1,13 +1,16 @@
 .navbox{
   padding: 25px;
+  background-color: var(--white-mask);
   .navbar{
     //background-color: var(--primary-bg);
     width: 100%;
     color: var(--secondary);
     display: inline-block;
-    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
-
+    font-size: 20px;
     .logo-box{
+      font-family: "SilkScreen", Arial, Helvetica, sans-serif;
+      line-height: 2.3rem;
+      font-size: 30px;
       display: inline-block;
       width: 20%;
       .logo-icon{
@@ -23,17 +26,21 @@
       .items{
         text-align: center;
         a{
-          padding: 0 10px;
+          padding: 5px 10px;
+          transition: ease-in-out 0.5s;
         }
         a:hover{
           background-color: black;
         }
       }
     }
-    .curriculum{
+    .focus-box{
       display: inline-block;
       width: 20%;
       text-align: right;
+      .btn{
+        padding: 5px 60px;
+      }
 
     }
 
