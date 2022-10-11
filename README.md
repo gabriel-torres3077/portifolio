@@ -8,10 +8,10 @@
 
 - [x] Create project structure
 - [x] Pages design
-- [] Code
-- [] Testing
-- [] Launch
-
+- [ ] Code
+- [ ] Testing
+- [ ] Launch
+ 
 <br><br>
 
 ## 🛠 &nbsp;Skills
@@ -57,6 +57,16 @@
 
 -Olá, eu estou trabalhando no meu portfolio, você pode checar o progresso abaixo
 <br><br>
+
+# Progresso
+
+- [x] Create project structure
+- [x] Pages design
+- [ ] Code
+- [ ] Testing
+- [ ] Launch
+
+<br/><br/>
 
 ## 🛠 &nbsp;Habilidades
 
