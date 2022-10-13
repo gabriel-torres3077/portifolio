@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { ReactiveFormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/organisms/header/header.component';
@@ -22,12 +22,13 @@ import { PhoneComponent } from './components/molecules/contact/phone/phone.compo
     ProjectsComponent,
     EmailFormComponent,
     ContactPageComponent,
-    PhoneComponent
+    PhoneComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

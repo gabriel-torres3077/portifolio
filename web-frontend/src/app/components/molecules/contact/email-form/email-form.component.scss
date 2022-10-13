@@ -1,0 +1,21 @@
+.main{
+    z-index: 3;
+    .form-group{
+        background-color: red;
+        .subtitle{
+            background-color: green;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .opt{
+            color: black;
+        }
+        
+    }
+    .submit{
+        margin-top: 25px;
+        float: right;
+        width: 30vw;
+    }
+}
