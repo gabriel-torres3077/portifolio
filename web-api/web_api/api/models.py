@@ -8,3 +8,15 @@ class User(AbstractUser):
     created_at = models.DateTimeField(auto_now_add=True, null=True)
     last_login = models.DateTimeField(null=True)
     whatsapp=models.CharField(max_length=20, null=True)
+"""
+project model
+    title
+    description
+    images
+    likes
+    dislikes
+    comments
+
+"""
+class Project(models.Model):
+    title = models.CharField

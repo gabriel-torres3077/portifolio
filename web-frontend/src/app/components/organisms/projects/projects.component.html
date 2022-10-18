@@ -1,10 +1,11 @@
+<p>projects works!</p>
 
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
-<p>projects works!</p>
+<div  class="content">
+  <div *ngFor="let project of projects" class="project">
+    <app-card
+      title="{{ project.title }}"
+      image="{{ project.image }}"
+      likes="{{ project.likes }}"
+    ></app-card>
+  </div>
+</div>

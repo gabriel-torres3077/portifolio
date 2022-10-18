@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { EmailFormComponent } from './components/molecules/contact/email-form/email-form.component';
 import { ContactPageComponent } from './components/organisms/contact-page/contact-page.component';
 import { PhoneComponent } from './components/molecules/contact/phone/phone.component';
+import { CardComponent } from './components/molecules/card/card.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { PhoneComponent } from './components/molecules/contact/phone/phone.compo
     EmailFormComponent,
     ContactPageComponent,
     PhoneComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
